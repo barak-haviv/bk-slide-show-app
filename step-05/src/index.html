@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-dark bg-dark d-flex align-items-baseline">
+        <nav class="navbar navbar-dark bg-dark d-flex align-items-baseline fixed-top">
             <span class="navbar-brand ms-1">Slideshow App</span>
             <ul class="navbar-nav me-auto d-flex flex-row">
                 <li class="nav-item active mx-3">
@@ -28,23 +28,41 @@
         </nav>
     </header>
 
-    <main class="center mt-4">
+    <main class="center">
 
-        <div id="home-page" class="col-12 col-md-10 col-xl-8 d-none">
+        <div id="home-page" class="col-8 d-none">
             <h1 class="text-center display-4">
                 HOME PAGE
             </h1>
-            <h2 class="fs-5">
-                Here you can look at your pictures throw slide show or list
+            <h2 class="fs-5 text-center">
+                Here you can see the saved images as a slideshow or list.
             </h2>
             <hr />
+
+            <div id="data-container" class="d-block">
+                <figure>
+                    <img src="..." alt="..." class="img-fluid col-6" />
+                    <figcaption>
+                        <header>Title</header>
+                        <p id="image-description">Description</p>
+                        <p>Featured on: <span id="image-featured">1/1/1</span></p>
+                        <p>© <span id="image-copyright">Credits</span></p>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <div id="slider-prev-btn" class="btn btn-outline-dark mx-2">Prev</div>
+                <div id="slider-next-btn" class="btn btn-outline-dark mx-2">Next</div>
+            </div>
+
         </div>
 
         <div id="about-page" class="col-12 col-md-10 col-xl-8 d-none">
             <h1 class="text-center display-4">
                 ABOUT PAGE
             </h1>
-            <h2 class="fs-5">
+            <h2 class="fs-5 text-center">
                 This page provides information about the slideshow app.
             </h2>
             <hr />
