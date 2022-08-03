@@ -1,0 +1,9 @@
+/* :root {
+    --bs-nav-link-color: white;
+} */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
