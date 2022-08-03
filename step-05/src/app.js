@@ -42,7 +42,7 @@ const pictureData = [{
     title: 'Bay Marker Lookout, Sydney Olympic Park, Australia',
     copyright: 'ai_yoshi/Getty Images',
     description: 'It\'s an easy, circular trail to the Bay Marker Lookout, but you have to make it under your own steam—sorry, no cars allowed. This is one of the five Sydney Olympic Park Markers, cone-shaped earth mounds installed for the 2000 Olympics in Australia. They are cleverly placed to look from the air like the Australian flag\'s Southern Cross. From the ground, the Bay Marker gives a stunning full-360-degree view of Wentworth Common—a large grassy park—and the larger Olympic Park and stadium. You can also look over Homebush Bay (the community and the body of water) to the north. It"s a dramatic melding of urban landscape, the city skyline, the wetlands and greenery, rivers, and beaches.',
-    features: '2022-07-12'
+    featured: '2022-07-12'
 }];
 
 let currentPictureIndex = 0;
